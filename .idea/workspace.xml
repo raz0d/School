@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e080e888-6cb7-4416-94e6-60cbc7e0441b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/file_handling_ques/q1_A_.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file_handling_ques/q1_B.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file_handling_ques/q2_A_ii.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_files/showInLines().py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +43,7 @@
       <recent name="C:\Users\alsam\Desktop\School\python_files" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.q1_B">
+  <component name="RunManager" selected="Python.q2_A_ii">
     <configuration name="practical_q6_ (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="School" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -110,7 +107,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="q2_b_ii" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="q2_A_ii" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="School" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -122,7 +119,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/file_handling_ques/q2_b_ii.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/file_handling_ques/q2_A_ii.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -154,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.q2_A_ii" />
         <item itemvalue="Python.q1_B" />
         <item itemvalue="Python.q1_A_" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.practical_q6_ (1)" />
-        <item itemvalue="Python.q2_b_ii" />
       </list>
     </recent_temporary>
   </component>
