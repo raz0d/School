@@ -18,13 +18,10 @@ def a_lines():
             new_list.append(line)
     return new_list
 
-open(r"C:\Users\alsam\Desktop\School\text_files\myfile.txt", "w").close()
-
 with open(r"C:\Users\alsam\Desktop\School\text_files\myfile.txt", "w") as file:
     file.writelines(no_a_lines())
 
 write_file = open(r"C:\Users\alsam\Desktop\School\text_files\to_write.txt", "w")
 for i in range(len(a_lines())):
     write_file.write(a_lines()[i])
-
 write_file.close()
