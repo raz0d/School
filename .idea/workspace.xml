@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e080e888-6cb7-4416-94e6-60cbc7e0441b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/test/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_files/Practical questions/practical_q6_.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_files/Practical questions/practical_q6_.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text_files/myfile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/text_files/myfile.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text_files/to_write.txt" beforeDir="false" afterPath="$PROJECT_DIR$/text_files/to_write.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +43,7 @@
       <recent name="C:\Users\alsam\Desktop\School\python_files" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.practical_q6_ (1)">
+  <component name="RunManager" selected="Python.test">
     <configuration name="practical_q6_ (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="School" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -154,8 +151,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.practical_q6_ (1)" />
         <item itemvalue="Python.test" />
+        <item itemvalue="Python.practical_q6_ (1)" />
         <item itemvalue="Python.q2_b_ii" />
         <item itemvalue="Python.updatin_binary_files" />
         <item itemvalue="Python.practical_q6_" />
