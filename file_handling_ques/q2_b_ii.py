@@ -14,6 +14,7 @@ with open("emp.dat", "wb+") as file:
 
 
 def disp_detail():
+    print("Details of those employees whose salary is below 25000")
     with open("emp.dat", "rb") as file:
         while True:
             try:
