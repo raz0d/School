@@ -56,3 +56,13 @@
 #             p.dump(list[i], file)
 #     return len(list)
 
+D = {
+    1: "Abcd",
+    2: "b;fd",
+    3: "jsgd"
+}
+d = []
+for i in D:
+    if i != 2:
+        d.append(i)
+print(d)
