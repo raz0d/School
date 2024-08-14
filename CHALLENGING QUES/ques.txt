@@ -1,0 +1,57 @@
+### Question:
+
+You are required to implement a program that simulates a simplified version of a banking system. The program should use functions to handle various operations. Implement the following functionalities:
+
+1. *Create Account*:
+   - A function to create a new account, which takes the customer's name and an initial deposit amount as arguments.
+   - The account number should be auto-generated sequentially starting from 1001.
+   - Store the account details (account number, name, balance) in a dictionary.
+
+2. *Deposit*:
+   - A function that takes the account number and deposit amount as arguments.
+   - Update the account balance accordingly.
+   - Ensure the account number exists before performing the operation.
+
+3. *Withdraw*:
+   - A function that takes the account number and withdrawal amount as arguments.
+   - Update the account balance accordingly.
+   - Ensure the account number exists and has sufficient balance before performing the operation.
+
+4. *Transfer*:
+   - A function to transfer money from one account to another.
+   - It should take the source account number, destination account number, and transfer amount as arguments.
+   - Ensure both accounts exist and the source account has sufficient balance before performing the operation.
+
+5. *Transaction History*:
+   - Maintain a list of transactions for each account.
+   - Each transaction should record the type of transaction (Deposit, Withdrawal, Transfer), amount, and remaining balance.
+   - A function to print the transaction history of a given account number.
+
+*Constraints:*
+- You cannot use any external libraries; only the standard Python libraries are allowed.
+- You must handle errors gracefully, providing meaningful error messages.
+
+### Bonus Challenge:
+
+Optimize the code to ensure that the time complexity of each function is minimized. Justify the choice of data structures used for storing account details and transaction history.
+
+---
+
+### Example Usage:
+
+python
+# Example of creating accounts
+create_account("Alice", 1000)
+create_account("Bob", 1500)
+
+# Example of deposit
+deposit(1001, 500)
+
+# Example of withdrawal
+withdraw(1002, 200)
+
+# Example of transfer
+transfer(1001, 1002, 300)
+
+# Example of printing transaction history
+print_transaction_history(1001)
