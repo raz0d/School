@@ -1,6 +1,6 @@
 # QUESTION - 4
 
-file = open(r"C:\Users\alsam\Desktop\School\text_files\myfile.txt")
+file = open("myfile.txt")
 def words_with_sep():
     line = file.readline()
     while line:

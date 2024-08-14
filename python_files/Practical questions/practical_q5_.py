@@ -1,6 +1,6 @@
 # QUESTION - 5
 
-file = open(r"C:\Users\alsam\Desktop\School\text_files\myfile.txt", "r")
+file = open("myfile.txt")
 
 def file_analysis():
     file_content = file.read()

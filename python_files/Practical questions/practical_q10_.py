@@ -2,7 +2,7 @@
 
 import pickle as p
 
-creating_file = open(r"C:\Users\alsam\Desktop\School\binary_files\test_file.dat", "wb")
+creating_file = open("test_file.dat", "wb")
 
 def add_records():
     response = "y"
@@ -21,7 +21,7 @@ for record in add_records():
 creating_file.close()
 
 print("\nChange marks:")
-file = open(r"C:\Users\alsam\Desktop\School\binary_files\test_file.dat", "rb")
+file = open("test_file.dat", "rb")
 
 def change_marks():
     updated_content = []
@@ -50,8 +50,8 @@ def change_marks():
 updated_content = change_marks()
 file.close()
 
-open(r"C:\Users\alsam\Desktop\School\binary_files\test_file.dat", "wb").close()
+open("test_file.dat", "wb").close()
 
-with open(r"C:\Users\alsam\Desktop\School\binary_files\test_file.dat", "wb") as final_file:
+with open("test_file.dat", "wb") as final_file:
     for record in updated_content:
         p.dump(record, final_file)

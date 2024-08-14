@@ -2,7 +2,7 @@
 
 import pickle as p
 
-creating_file = open(r"C:\Users\alsam\Desktop\School\binary_files\test_file.dat", "wb")
+creating_file = open("test_file.dat", "wb")
 
 response = "y"
 record_list = []
@@ -18,7 +18,7 @@ for record in record_list:
 
 creating_file.close()
 
-file = open(r"C:\Users\alsam\Desktop\School\binary_files\test_file.dat", "rb")
+file = open("test_file.dat", "rb")
 
 print("\nFind name using roll number")
 

@@ -45,8 +45,8 @@
       <recent name="C:\Users\alsam\Desktop\School\python_files" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test">
-    <configuration name="q3_b" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.practical_q6_">
+    <configuration name="practical_q6_" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="School" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -54,11 +54,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/file_handling_ques" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_files/Practical questions" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/file_handling_ques/q3_b.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_files/Practical questions/practical_q6_.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -153,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.practical_q6_" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.q4_b_ii" />
         <item itemvalue="Python.q4_a_i" />
         <item itemvalue="Python.q4_a" />
-        <item itemvalue="Python.q3_b" />
       </list>
     </recent_temporary>
   </component>

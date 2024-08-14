@@ -1,6 +1,6 @@
 #QUESTION - 6
 
-read_file = open(r"C:\Users\alsam\Desktop\School\text_files\myfile.txt", "r")
+read_file = open("myfile.txt")
 content_list = read_file.readlines()
 read_file.close()
 
@@ -18,10 +18,10 @@ def a_lines():
             new_list.append(line)
     return new_list
 
-with open(r"C:\Users\alsam\Desktop\School\text_files\myfile.txt", "w") as file:
+with open("myfile.txt", "w") as file:
     file.writelines(no_a_lines())
 
-write_file = open(r"C:\Users\alsam\Desktop\School\text_files\to_write.txt", "w")
+write_file = open("to_write.txt", "w")
 for i in range(len(a_lines())):
     write_file.write(a_lines()[i])
 write_file.close()

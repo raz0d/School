@@ -1,4 +1,4 @@
-file = open(r"C:\Users\alsam\Desktop\School\text_files\myfile.txt")
+file = open("myfile.txt")
 content = file.read()
 
 def count_he_she():
