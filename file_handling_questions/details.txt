@@ -1,0 +1,2 @@
+on seat2 VIP1 will sit and
+on seat1 VVIP2 will be sitting
