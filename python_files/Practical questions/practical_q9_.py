@@ -15,14 +15,16 @@ def create_file():
 
 def search_record(n):
     with open("myfile.dat", "rb") as f:
+        found = False
         while True:
             try:
                 cnt = p.load(f)
                 if cnt[1] == n:
                     print(cnt)
-                else:
-                    print("No record found")
+                    found = True
             except:
+                if not found:
+                    print("record not found with this roll no")
                 break
 
 create_file()
