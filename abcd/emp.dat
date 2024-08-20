@@ -1,0 +1,5 @@
+import pickle
+def disp_Detail():
+f=open("emp.dat","wb")
+ans="y"
+

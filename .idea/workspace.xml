@@ -5,28 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e080e888-6cb7-4416-94e6-60cbc7e0441b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/abcd/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/abcd/.idea/abcd.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/abcd/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/abcd/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/abcd/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/abcd/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/abcd/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/abcd/my file.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/abcd/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file_handling_questions/basket.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file_handling_questions/details.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file_handling_questions/lines.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file_handling_questions/q12_i.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file_handling_questions/q12_ii.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file_handling_questions/q6_a.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file_handling_questions/q6_b.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file_handling_questions/testfile.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file_handling_questions/testfile2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/abcd/emp.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file_handling_questions/q11_ii.py" beforeDir="false" afterPath="$PROJECT_DIR$/file_handling_questions/q11_ii.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file_handling_questions/q9_i.py" beforeDir="false" afterPath="$PROJECT_DIR$/file_handling_questions/q9_i.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file_handling_questions/q9_ii.py" beforeDir="false" afterPath="$PROJECT_DIR$/file_handling_questions/q9_ii.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/abcd/my file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/abcd/my file.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/abcd/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/abcd/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_files/Practical questions/myfile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/python_files/Practical questions/myfile.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_files/Practical questions/practical_q6_.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_files/Practical questions/practical_q6_.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_files/Practical questions/practical_q7_.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_files/Practical questions/practical_q7_.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_files/Practical questions/practical_q8_.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_files/Practical questions/practical_q8_.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_files/Practical questions/practical_q9_.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_files/Practical questions/practical_q9_.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_files/Practical questions/to_write.txt" beforeDir="false" afterPath="$PROJECT_DIR$/python_files/Practical questions/to_write.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,21 +40,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/alsam/Desktop/School/python_files"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/alsam/Desktop/School/python_files&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\alsam\Desktop\School\python_files" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.q9_i">
-    <configuration name="q12_i" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.practical_q9_">
+    <configuration name="practical_q6_" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="School" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -73,11 +62,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/file_handling_questions" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_files/Practical questions" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/file_handling_questions/q12_i.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_files/Practical questions/practical_q6_.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -86,7 +75,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="q12_ii" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="practical_q7_" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="School" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -94,11 +83,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/file_handling_questions" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_files/Practical questions" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/file_handling_questions/q12_ii.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_files/Practical questions/practical_q7_.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -107,7 +96,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="q6_a" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="practical_q8_" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="School" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -115,11 +104,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/file_handling_questions" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_files/Practical questions" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/file_handling_questions/q6_a.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_files/Practical questions/practical_q8_.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -128,7 +117,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="q6_b" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="practical_q9_" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="School" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -136,11 +125,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/file_handling_questions" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_files/Practical questions" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/file_handling_questions/q6_b.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_files/Practical questions/practical_q9_.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -172,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.practical_q9_" />
+        <item itemvalue="Python.practical_q8_" />
+        <item itemvalue="Python.practical_q7_" />
+        <item itemvalue="Python.practical_q6_" />
         <item itemvalue="Python.q9_i" />
-        <item itemvalue="Python.q6_a" />
-        <item itemvalue="Python.q6_b" />
-        <item itemvalue="Python.q12_ii" />
-        <item itemvalue="Python.q12_i" />
       </list>
     </recent_temporary>
   </component>
