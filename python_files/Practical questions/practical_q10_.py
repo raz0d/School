@@ -1,5 +1,5 @@
 # QUESTION - 10
-
+# SIMPLE AND EASY LOGIC
 # import pickle as p
 #
 # creating_file = open("test_file.dat", "wb")
@@ -58,3 +58,50 @@
 
 # ---------------------------------------
 # LOGIC 2
+
+import pickle as p
+
+def create_file():
+    with open("myfile1.dat", "wb") as f:
+        ans = "y"
+        while ans == "y":
+            rno = int(input("Enter roll no: "))
+            name = input("Enter name: ")
+            marks = int(input("enter marks: "))
+            p.dump([rno, name, marks], f)
+            ans = input("add more records? : ")
+    print("Records added successfully")
+
+def update_marks():
+    n = int(input("enter roll no: "))
+    found = False
+    with open("myfile1.dat", "rb+") as f:
+        while True:
+            try:
+                loc = f.tell()
+                cnt = p.load(f)
+                if cnt[0] == n:
+                    f.seek(loc)
+                    m = int(input("new marks: "))
+                    cnt[2] = m
+                    p.dump(cnt, f)
+                    found = True
+                    break
+            except:
+                if found:
+                    print("Mark changes successfully")
+                else:
+                    print("No record with this roll no")
+
+
+create_file()
+update_marks()
+
+with open("myfile1.dat", "rb") as f:
+    print("\n\nREADING")
+    while True:
+        try:
+            cnt = p.load(f)
+            print(cnt)
+        except:
+            break
