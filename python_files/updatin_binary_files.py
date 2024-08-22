@@ -1,4 +1,5 @@
 import pickle as p
+
 data = [
     {"name": "Alsamad", "roll_no": 7, "marks": 56},
     {"name": "Anuj", "roll_no": 12, "marks": 65},
@@ -10,7 +11,6 @@ with open("test_file.dat", "wb") as f:
         p.dump(i, f)
 
 f = open("test_file.dat", "rb+")
-f.seek(0)
 found = False
 rno = int(input("Enter roll number: "))
 while True:
