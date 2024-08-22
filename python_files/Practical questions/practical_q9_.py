@@ -13,7 +13,8 @@ def create_file():
             ans = input("Add records: ")
     print("record added")
 
-def search_record(n):
+def search_record():
+    n = int(input("Enter roll no: "))
     with open("myfile.dat", "rb") as f:
         found = False
         while True:
@@ -28,7 +29,7 @@ def search_record(n):
                 break
 
 create_file()
-search_record(int(input("Enter roll no: ")))
+search_record()
 
 
 # ----------------------------------------

@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e080e888-6cb7-4416-94e6-60cbc7e0441b" name="Changes" comment="update">
+      <change afterPath="$PROJECT_DIR$/python_files/Practical questions/practical_q10_final.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_files/Practical questions/practical_q11.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_files/Practical questions/practical_q13.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_files/Practical questions/question_12.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file_handling_questions/q3_a.py" beforeDir="false" afterPath="$PROJECT_DIR$/file_handling_questions/q3_a.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_files/Practical questions/myfile1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/python_files/Practical questions/myfile1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_files/Practical questions/practical_q9_.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_files/Practical questions/practical_q9_.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +50,7 @@
       <recent name="C:\Users\alsam\Desktop\School\python_files" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.practical_q9_">
+  <component name="RunManager" selected="Python.practical_q13">
     <configuration name="practical_q10_" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="School" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -65,7 +72,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="practical_q6_" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="practical_q10_final" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="School" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -77,7 +84,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_files/Practical questions/practical_q6_.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_files/Practical questions/practical_q10_final.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -86,7 +93,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="practical_q7_" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="practical_q13" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="School" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -98,28 +105,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_files/Practical questions/practical_q7_.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="practical_q8_" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="School" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_files/Practical questions" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_files/Practical questions/practical_q8_.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_files/Practical questions/practical_q13.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -149,13 +135,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="q3_a" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="School" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/file_handling_questions" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/file_handling_questions/q3_a.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.practical_q9_" />
+        <item itemvalue="Python.practical_q13" />
+        <item itemvalue="Python.practical_q10_final" />
         <item itemvalue="Python.practical_q10_" />
-        <item itemvalue="Python.practical_q8_" />
-        <item itemvalue="Python.practical_q7_" />
-        <item itemvalue="Python.practical_q6_" />
+        <item itemvalue="Python.q3_a" />
+        <item itemvalue="Python.practical_q9_" />
       </list>
     </recent_temporary>
   </component>
