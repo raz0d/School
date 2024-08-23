@@ -3,7 +3,7 @@ import csv
 def Add_Teacher():
 
     with open("Teacher.csv", "w", newline="") as f:
-        fwrite = csv.reader(f)
+        fwrite = csv.writer(f)
         res = "y"
 
         while res == "y":
