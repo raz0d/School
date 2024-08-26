@@ -1,5 +1,5 @@
 import pickle as p
-def findAType(mtype):
+def findType(mtype):
     with open("CINEMA.dat", "rb") as f:
         found = False
         while True:
@@ -15,4 +15,4 @@ def findAType(mtype):
                 break
 
 
-findAType(input("enter movie type: "))
+findType(input("enter movie type: "))
