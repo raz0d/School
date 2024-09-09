@@ -56,13 +56,22 @@
 #             p.dump(list[i], file)
 #     return len(list)
 
-D = {
-    1: "Abcd",
-    2: "b;fd",
-    3: "jsgd"
+# D = {
+#     1: "Abcd",
+#     2: "b;fd",
+#     3: "jsgd"
+# }
+# d = []
+# for i in D:
+#     if i != 2:
+#         d.append(i)
+# print(d)
+
+dict = {
+    "name": "anuj",
+    12: "ladua",
+    "sex": "karado"
 }
-d = []
-for i in D:
-    if i != 2:
-        d.append(i)
-print(d)
+list = ["anuj", "ladua", "karado"]
+
+print(dict["name"])
