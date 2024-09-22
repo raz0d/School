@@ -7,7 +7,7 @@ with open("test_file.dat", "rb") as file:
     while True:
         try:
             cnt = pickle.load(file)
-            if cnt[2] > 60 :
+            if cnt['marks'] > 60 :
                 print(cnt)
         except:
             break

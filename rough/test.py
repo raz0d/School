@@ -67,11 +67,11 @@
 #         d.append(i)
 # print(d)
 
-dict = {
-    "name": "anuj",
-    12: "ladua",
-    "sex": "karado"
-}
-list = ["anuj", "ladua", "karado"]
+class LaudaLassanError(Exception):
+    import random
+    if random.randint(0,10) == 6:
+        print("Apki maki chut bhai, aap chakka")
+    else:
+        pass
 
-print(dict["name"])
+raise LaudaLassanError()
