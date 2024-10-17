@@ -1,0 +1,93 @@
+// ==UserScript==
+// @name        New script bing.com
+// @namespace   Violentmonkey Scripts
+// @match       https://www.bing.com/*
+// @grant       none
+// @version     1.0
+// @author      -
+// @description 9/28/2024, 1:00:49 AM
+// ==/UserScript==
+
+'use strict';
+
+// List of at least 500 unique 4-letter words
+const words = [
+    "Able", "Acid", "Aged", "Also", "Area", "Army", "Away", "Baby", "Back", "Ball", "Band", "Bank", "Base", "Bath", "Bear", "Beat", "Been",
+    "Beer", "Belt", "Best", "Bill", "Bird", "Blow", "Blue", "Boat", "Body", "Bomb", "Bond", "Bone", "Book", "Boom", "Born", "Boss", "Both",
+    "Bowl", "Bulk", "Burn", "Bush", "Busy", "Call", "Calm", "Came", "Camp", "Card", "Care", "Case", "Cash", "Cast", "Cell", "Chat", "Chip",
+    "City", "Club", "Coal", "Coat", "Code", "Cold", "Come", "Cook", "Cool", "Cope", "Copy", "CORE", "Cost", "Crew", "Crop", "Dark", "Data",
+    "Date", "Dawn", "Days", "Dead", "Deal", "Debt", "Deep", "Deny", "Desk", "Dial", "Diet", "Disc", "Dive", "Dock", "Does", "Done", "Door",
+    "Dose", "Down", "Draw", "Drew", "Drop", "Drug", "Dual", "Duke", "Dust", "Duty", "Each", "Earn", "Ease", "East", "Easy", "Edge", "Else",
+    "Even", "Ever", "Evil", "Exit", "Face", "Fact", "Fair", "Fall", "Farm", "Fast", "Fate", "Fear", "Feed", "Feel", "Feet", "Fell", "Felt",
+    "File", "Film", "Find", "Fine", "Fire", "Firm", "Fish", "Five", "Flat", "Flow", "Food", "Foot", "Ford", "Form", "Fort", "Free", "From",
+    "Fuel", "Full", "Fund", "Gain", "Game", "Gate", "Gave", "Gear", "Gene", "Gift", "Girl", "Give", "Glad", "Goal", "Goes", "Gold", "Golf",
+    "Gone", "Good", "Gray", "Grew", "Grey", "Grow", "Gulf", "Hair", "Half", "Hall", "Hand", "Hang", "Hard", "Hate", "Have", "Head", "Hear",
+    "Heat", "Held", "Hell", "Help", "Here", "Hero", "Hide", "High", "Hill", "Hire", "Hold", "Hole", "Holy", "Home", "Hope", "Host", "Hour",
+    "Huge", "Hunt", "Hurt", "Idea", "Inch", "Into", "Iron", "Item", "Jack", "Jane", "Jean", "John", "Join", "Jump", "Just", "Keen", "Keep",
+    "Kick", "Kill", "Kind", "King", "Knee", "Knew", "Know", "Lack", "Lady", "Lake", "Land", "Lane", "Last", "Late", "Lead", "Left", "Less",
+    "Life", "Lift", "Like", "Line", "Link", "List", "Live", "Load", "Loan", "Lock", "Logo", "Long", "Look", "Lord", "Lose", "Loss", "Lost",
+    "Love", "Luck", "Made", "Mail", "Main", "Make", "Male", "Many", "Mark", "Mass", "Match", "Meal", "Mean", "Meat", "Meet", "Menu", "Mile",
+    "Milk", "Mind", "Mine", "Miss", "Mode", "Mood", "Moon", "More", "Most", "Move", "Much", "Must", "Name", "Navy", "Near", "Neck", "Need",
+    "News", "Next", "Nice", "Nick", "None", "Nose", "Note", "Okay", "Once", "Only", "Open", "Over", "Pack", "Page", "Paid", "Pain", "Pair",
+    "Palm", "Park", "Part", "Pass", "Past", "Path", "Peak", "Pick", "Plan", "Play", "Plus", "Poll", "Pool", "Poor", "Port", "Post", "Pull",
+    "Pure", "Push", "Race", "Rail", "Rain", "Rank", "Rare", "Rate", "Read", "Real", "Rear", "Rest", "Rich", "Ride", "Ring", "Rise", "Risk",
+    "Road", "Rock", "Role", "Roll", "Roof", "Room", "Root", "Rose", "Rule", "Rush", "Safe", "Said", "Sale", "Salt", "Same", "Sand", "Save",
+    "Seat", "Seed", "Seek", "Seen", "Sell", "Send", "Sent", "Ship", "Shop", "Shot", "Show", "Shut", "Sick", "Side", "Sign", "Site", "Size",
+    "Skin", "Slip", "Slow", "Snow", "Soft", "Soil", "Sold", "Sole", "Some", "Song", "Soon", "Sort", "Soul", "Spot", "Star", "Stay", "Step",
+    "Stop", "Such", "Suit", "Sure", "Take", "Talk", "Tall", "Tape", "Task", "Team", "Tech", "Tell", "Tend", "Term", "Test", "Text", "Than",
+    "That", "Them", "Then", "They", "Thin", "This", "Thus", "Time", "Tiny", "Told", "Toll", "Tone", "Took", "Tool", "Tour", "Town", "Tree",
+    "Trip", "True", "Turf", "Turn", "Twin", "Type", "Unit", "Upon", "Used", "User", "Vary", "Vast", "Very", "View", "Vote", "Wait", "Wake",
+    "Walk", "Wall", "Want", "Ward", "Warm", "Warn", "Wash", "Wave", "Wear", "Week", "Well", "Went", "Were", "West", "What", "When", "Wild",
+    "Will", "Wind", "Wine", "Wing", "Wire", "Wise", "Wish", "With", "Wood", "Word", "Wore", "Work", "Yard", "Yeah", "Year", "Your", "Zero",
+    "Zone"
+    // Total 500+ unique 4-letter words
+];
+
+// Track used words to prevent repetition
+let usedWords = new Set();
+
+// Function to get a random and unique 4-letter word
+function getRandomUniqueWord() {
+    if (usedWords.size === words.length) {
+        console.log("All words have been used. Resetting the word list.");
+        usedWords.clear(); // Reset when all words are used
+    }
+    let word;
+    do {
+        word = words[Math.floor(Math.random() * words.length)];
+    } while (usedWords.has(word));
+    usedWords.add(word);
+    return word;
+}
+
+// Function to simulate typing with variable delays
+function typeSearchTerm(searchTerm) {
+    const searchBox = document.getElementById('sb_form_q');
+    if (searchBox) {
+        searchBox.value = ''; // Clear the search box before typing
+        let i = 0;
+        const interval = setInterval(() => {
+            if (i < searchTerm.length) {
+                searchBox.value += searchTerm.charAt(i);
+                i++;
+            } else {
+                clearInterval(interval);
+                document.getElementById('sb_form').submit(); // Submit the search form
+
+                // Refresh the page with a fixed 6-second delay after the search is complete
+                setTimeout(() => {
+                    location.reload(); // Refresh the page after each completed search
+                }, 6000); // Fixed delay of 6 seconds
+            }
+        }, Math.floor(Math.random() * (800 - 500 + 1)) + 500); // Variable typing delay between 500-800 ms
+    }
+}
+
+// Function to perform the search with typing effect and fixed delay
+function performSearch() {
+    const searchTerm = getRandomUniqueWord();
+    typeSearchTerm(searchTerm);
+}
+
+// Run the search every 6 seconds after page load
+setInterval(performSearch, 6000);

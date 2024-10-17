@@ -1,0 +1,8 @@
+# QUERY TO WRITE AVG MARKS OF EACH CITY IN ASCENDING ORDER
+
+USE my_db;
+
+SELECT city, AVG(marks)
+	FROM student
+    GROUP BY city
+    ORDER BY AVG(marks) ASC;
