@@ -67,11 +67,28 @@
 #         d.append(i)
 # print(d)
 
-class LaudaLassanError(Exception):
-    import random
-    if random.randint(0,10) == 6:
-        print("Apki maki chut bhai, aap chakka")
-    else:
-        pass
+# class LaudaLassanError(Exception):
+#     import random
+#     if random.randint(0,10) == 6:
+#         print("Apki maki chut bhai, aap chakka")
+#     else:
+#         pass
+#
+# raise LaudaLassanError()
 
-raise LaudaLassanError()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

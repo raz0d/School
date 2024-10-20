@@ -43,7 +43,7 @@
       <recent name="C:\Users\alsam\Desktop\School\python_files" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main_py">
+  <component name="RunManager" selected="Python.test">
     <configuration name="5_ques_ki_file" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="School" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -151,10 +151,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.main_py" />
         <item itemvalue="Python.project" />
         <item itemvalue="Python.code" />
-        <item itemvalue="Python.test" />
         <item itemvalue="Python.5_ques_ki_file" />
       </list>
     </recent_temporary>
