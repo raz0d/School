@@ -261,9 +261,151 @@ CREATE TABLE teacher (
     name VARCHAR(50),
     dept_id INT,
     FOREIGN KEY (dept_id) REFERENCES dept(id)
+    ON UPDATE CASCADE
+    ON DELETE CASCADE
 );
 
+INSERT INTO dept
+	(id, name)
+    VALUES
+    (101, "Science"),
+    (102, "English"),
+    (103, "Hindi");
+    
+SELECT * FROM dept;
 
+INSERT INTO teacher
+	(id, name, dept_id)
+    VALUES
+    (101, "Adam", 101),
+    (102, "Bob", 103),
+    (103, "Casey", 102),
+    (104, "Donald", 102);
+    
+SELECT * FROM teacher;
+
+UPDATE dept
+	SET id = 67
+    WHERE name = "English";
+
+DELETE FROM dept
+	WHERE id = 103;
+
+# ALTER COMMMANDS
+
+# ADD COLUMN
+ALTER TABLE student
+	ADD COLUMN age INT DEFAULT 19;
+    
+# DROP COLUMN
+ALTER TABLE student
+	DROP COLUMN age;
+    
+# RENAME TABLE
+ALTER TABLE student
+	RENAME TO student_details;
+    
+ALTER TABLE student_details
+	RENAME TO student;
+    
+# MODIFY TABLE (modify datatypes / constraint)
+ALTER TABLE student
+	MODIFY COLUMN age VARCHAR(2);
+    
+# CHANGE TABLE (rename / change data types)
+ALTER TABLE student
+	CHANGE COLUMN age stud_age INT;
+
+# TRUNCATE COMMAND (delets all records from the table not the table)
+
+TRUNCATE TABLE student;
+
+SELECT * FROM student;
+
+/*            JOINS              */
+
+CREATE TABLE temp_student (
+	student_id INT PRIMARY KEY,
+    name VARCHAR(50)
+);
+CREATE TABLE temp_course (
+	student_id INT PRIMARY KEY,
+    course VARCHAR(50)
+);
+INSERT INTO temp_student
+	(student_id, name)
+    VALUES
+    (101, "Adam"),
+    (102, "Bob"),
+    (103, "Casey");
+INSERT INTO temp_course
+	(student_id , course)
+    VALUES
+    (102, "English"),
+    (105, "Math"),
+    (103, "Science"),
+    (107, "Computer Science");
+SELECT * FROM temp_student; 
+SELECT * FROM temp_course;
+
+# INNER JOINS
+SELECT *
+	FROM temp_student as s
+    INNER JOIN temp_course as c
+    ON s.student_id = c.student_id;
+
+# LEFT JOIN
+SELECT *
+	FROM temp_student as s
+    LEFT JOIN temp_course as c
+    ON s.student_id = c.student_id;
+
+# RIGHT JOIN
+SELECT *
+	FROM temp_student as a
+    RIGHT JOIN temp_course as b
+    ON a.student_id = b.student_id;
+
+# LEFT EXCLUSIVE 
+SELECT *
+	FROM temp_student as a
+    LEFT JOIN temp_course as b
+    ON a.student_id = b.student_id
+    WHERE b.student_id IS NULL;
+    
+# RIGHT EXCLUSIVE
+SELECT *
+	FROM temp_student as a
+    RIGHT JOIN temp_course as b
+    ON a.student_id = b.student_id
+    WHERE a.student_id IS NULL;
+    
+# FULL JOIN 
+SELECT * 
+	FROM temp_student as a
+    LEFT JOIN temp_course as b
+	ON a.student_id = b.student_id
+UNION
+SELECT*
+	FROM temp_student as a
+    RIGHT JOIN temp_course as b
+    ON a.student_id = b.student_id;
+	
+    
+# FULL EXCLUSIVE JOIN (RIGHT EXCLUSIVE + LEFT EXCLUSIVE)alter
+SELECT *
+	FROM temp_student as a
+	LEFT JOIN temp_course as b
+	ON a.student_id = b.student_id
+    WHERE b.student_id IS NULL
+UNION
+SELECT *
+	FROM temp_student as a
+	RIGHT JOIN temp_course as b
+	ON a.student_id = b.student_id
+	WHERE a.student_id IS NULL;
+    
+# SELF JOIN (1 table ko usi se join krdega)
 
 
 
