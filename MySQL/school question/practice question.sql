@@ -104,8 +104,95 @@ SELECT pname
 FROM detergents
 WHERE pname LIKE 'N%';
 
+/*                  QUESTION 5                  */
 
+#SELECT NAME,SAL,DESIGNATION WHERE DISCOUNT=NULL;
+/*
+SELECT NAME, SAL, DESIGNATION 
+FROM employees 
+WHERE DISCOUNT IS NULL;
+*/
 
+/*                  QUESTION 6                  */
 
+CREATE TABLE sports (
+    Rno INT PRIMARY KEY,
+    Class INT,
+    Name VARCHAR(50),
+    Game VARCHAR(50),
+    Grade CHAR(1),
+    Marks INT
+);
+
+INSERT INTO sports 
+(Rno, Class, Name, Game, Grade, Marks) 
+VALUES
+(10, 7, 'Sameer', 'Cricket', 'B', 61),
+(11, 8, 'Sujit', 'Tennis', 'A', 75),
+(12, 7, 'Kamal', 'Swimming', 'B', 60),
+(13, 9, 'Veena', 'Tennis', 'C', 49),
+(15, 10, 'Arpit', 'Cricket', 'A', 78);
+
+SELECT game, count(*) 
+FROM sports GROUP BY game;
+
+SELECT max(marks), min(marks) 
+FROM sports;
+
+SELECT DISTINCT game 
+FROM sports;
+
+SELECT name , game, marks 
+FROM sports WHERE marks BETWEEN 60 AND 75;
+
+/*                  QUESTION 7                  */
+
+CREATE TABLE doctor (
+    DID INT PRIMARY KEY,
+    DName VARCHAR(50),
+    Age INT,
+    Department VARCHAR(50),
+    Date_of_join DATE,
+    Salary DECIMAL(10, 2),
+    Gender CHAR(1)
+);
+
+INSERT INTO doctor 
+(DID, DName, Age, Department, Date_of_join, Salary, Gender) 
+VALUES
+(1, 'Rakesh', 34, 'General', '2017-01-10', 120000, 'M'),
+(2, 'Parveen', 31, 'Ortho', '2008-03-24', 200000, 'F'),
+(3, 'Satyajeet', 32, 'ENT', '2016-12-12', 300000, 'M'),
+(4, 'Yogita', 35, 'Heart', '2015-07-01', 400000, 'F'),
+(5, 'Chirag', 42, 'General', '2007-09-05', 250000, 'M'),
+(6, 'Vijay', 50, 'ENT', '2008-06-27', 300000, 'M'),
+(7, 'Kamlesh', 44, 'Ortho', '2017-02-25', 210000, 'M'),
+(8, 'Seema', 33, 'Heart', '2018-07-31', 200000, 'F');
+
+CREATE TABLE place (
+    PID INT PRIMARY KEY,
+    Department VARCHAR(50),
+    City VARCHAR(50)
+);
+
+INSERT INTO place 
+(PID, Department, City) 
+VALUES
+(1, 'General', 'Ajmer'),
+(2, 'Heart', 'Udaipur'),
+(3, 'Ortho', 'Jodhpur'),
+(4, 'ENT', 'Jaipur');
+
+SELECT department, count(*) 
+FROM doctor 
+GROUP BY department;
+
+SELECT Max(salary), Min(salary), Max(date_of_join ) 
+FROM doctor; 
+
+SELECT doctor.dname, doctor.department, place.city
+FROM doctor, place 
+WHERE doctor.department = place.department 
+	AND place.city IN ("Jaipur", "Jodhpur");
 
 
