@@ -39,7 +39,7 @@ WHERE Type="Sofa";
 
 SELECT Price*Discount 
 FROM Furniture 
-WHERE Dateofstock > 2002/12/31 ;
+WHERE Dateofstock > '2002/12/31' ;
 
 /*                  QUESTION 3                */
 
