@@ -1,26 +1,17 @@
-# Stack implementation using a list
-stack = []
+stack = [10, 23, 45, 70, 11, 15]
 
-# Function to push elements into the stack
-def push(element):
-    stack.append(element)
-    print(f"{element} pushed to stack")
+def linear_search(stack, value):
+    for i in range(len(stack)):
+        if stack[i] == value:
+            return i
+    return -1 # -1 if value not found
 
-# Function to perform linear search in the stack
-def linear_search(stack, key):
-    for index, element in enumerate(stack):
-        if element == key:
-            return f"Element {key} found at position {index + 1} in the stack."
-    return f"Element {key} not found in the stack."
+value = int(input("Number to search: "))
 
-# Adding elements to the stack
-push(10)
-push(20)
-push(30)
-push(40)
-push(50)
+loc = linear_search(stack, value)
 
-# Perform linear search
-key = int(input("Enter the element to search in the stack: "))
-result = linear_search(stack, key)
-print(result)
+if loc != -1:
+    loc_from_top = len(stack) - 1
+    print(f"Element found at position {loc_from_top}")
+else:
+    print("Element not found")
