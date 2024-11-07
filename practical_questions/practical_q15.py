@@ -1,3 +1,5 @@
+# QUESTION 15
+
 stack = [10, 23, 45, 70, 11, 15]
 
 def linear_search(stack, value):
@@ -12,6 +14,6 @@ loc = linear_search(stack, value)
 
 if loc != -1:
     loc_from_top = len(stack) - 1
-    print(f"Element found at position {loc_from_top}")
+    print(f"Element found at position {loc_from_top} from the top")
 else:
     print("Element not found")
