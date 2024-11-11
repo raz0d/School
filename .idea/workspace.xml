@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e080e888-6cb7-4416-94e6-60cbc7e0441b" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/practical_questions/DBMS/dbms_q5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practical_questions/DBMS/dbms_q6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practical_questions/DBMS/dbms_q7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practical_questions/DBMS/dbms_q8.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practical_questions/DBMS/dbms_q1.sql" beforeDir="false" afterPath="$PROJECT_DIR$/practical_questions/DBMS/dbms_q1.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practical_questions/DBMS/dbms_q2.sql" beforeDir="false" afterPath="$PROJECT_DIR$/practical_questions/DBMS/dbms_q2.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practical_questions/DBMS/dbms_q3.sql" beforeDir="false" afterPath="$PROJECT_DIR$/practical_questions/DBMS/dbms_q3.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practical_questions/DBMS/dbms_q4.py" beforeDir="false" afterPath="$PROJECT_DIR$/practical_questions/DBMS/dbms_q4.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
