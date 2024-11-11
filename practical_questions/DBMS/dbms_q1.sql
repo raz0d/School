@@ -1,3 +1,5 @@
+-- DATABASE QUESTION 1
+
 #1 Creating a Database
 CREATE DATABASE school;
 

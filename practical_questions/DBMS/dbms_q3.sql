@@ -1,3 +1,5 @@
+-- DATABASE QUESTION 3
+
 #1. SUM()
 SELECT SUM(age) AS total_age 
 FROM school_students;

@@ -1,3 +1,5 @@
+-- DATABASE QUESTION 2
+
 #1. Using DISTINCT
 SELECT DISTINCT grade 
 FROM school_students;
