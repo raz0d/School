@@ -1,3 +1,5 @@
+# DATABASE QUESTION 8
+
 import mysql.connector
 
 connection = mysql.connector.connect(
