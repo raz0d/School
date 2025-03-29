@@ -29,11 +29,10 @@
 #                     cnt[2] = m
 #                     p.dump(cnt, f)
 #                     found = True
+#                     print("Record updated successfully !!")
 #                     break
 #             except:
-#                 if found:
-#                     print("Mark changes successfully")
-#                 else:
+#                 if not found:
 #                     print("No record with this roll no")
 #                 break
 #

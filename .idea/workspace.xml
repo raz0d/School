@@ -4,7 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e080e888-6cb7-4416-94e6-60cbc7e0441b" name="Changes" comment="update" />
+    <list default="true" id="e080e888-6cb7-4416-94e6-60cbc7e0441b" name="Changes" comment="update">
+      <change afterPath="$PROJECT_DIR$/18 jan practical/.idea/18 jan practical.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18 jan practical/q_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final_board_practice/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final_board_practice/.idea/final_board_practice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final_board_practice/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final_board_practice/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final_board_practice/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final_board_practice/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final_board_practice/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final_board_practice/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final_board_practice/q1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final_board_practice/q2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final_board_practice/q4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practical_questions/.idea/practical_questions.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practical_questions/10.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practical_questions/14.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practical_questions/DBMS/data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practical_questions/data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practical_questions/q11.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practical_questions/q12.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practical_questions/q13.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practical_questions/q15.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practical_questions/q17.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practical_questions/q4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practical_questions/q5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practical_questions/q6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practical_questions/q7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practical_questions/q8.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practical_questions/q9.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practical_questions/myfile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/practical_questions/myfile.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practical_questions/practical_q10_.py" beforeDir="false" afterPath="$PROJECT_DIR$/practical_questions/practical_q10_.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practical_questions/to_write.txt" beforeDir="false" afterPath="$PROJECT_DIR$/practical_questions/to_write.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,8 +76,8 @@
       <recent name="C:\Users\alsam\Desktop\School\python_files" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.practical_q17">
-    <configuration name="practical_q15" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.q15">
+    <configuration name="14" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="School" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -54,7 +89,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practical_questions/practical_q15.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practical_questions/14.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -63,7 +98,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="practical_q16" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="q11" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="School" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -75,7 +110,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practical_questions/practical_q16.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practical_questions/q11.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -84,7 +119,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="practical_q17" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="q12" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="School" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -96,7 +131,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practical_questions/practical_q17.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practical_questions/q12.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -105,7 +140,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="q13" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="School" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -113,11 +148,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/rough" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/practical_questions" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rough/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practical_questions/q13.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -126,7 +161,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tut" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="q15" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="School" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -134,11 +169,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/connection" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/practical_questions" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/connection/tut.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practical_questions/q15.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -149,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.practical_q17" />
-        <item itemvalue="Python.practical_q16" />
-        <item itemvalue="Python.tut" />
-        <item itemvalue="Python.practical_q15" />
-        <item itemvalue="Python.test" />
+        <item itemvalue="Python.q15" />
+        <item itemvalue="Python.14" />
+        <item itemvalue="Python.q13" />
+        <item itemvalue="Python.q12" />
+        <item itemvalue="Python.q11" />
       </list>
     </recent_temporary>
   </component>

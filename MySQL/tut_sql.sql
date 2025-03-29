@@ -206,7 +206,7 @@ SELECT grade, COUNT(rollno) as "no of students"
     GROUP BY grade
     ORDER BY grade;
 
-# HAVING CLAUSE (simply where condition on groups kinda)
+# HAVING CLAUSE (simply where condition on groups)
 SELECT city, COUNT(rollno) # no of students in each city where max marks crossed 90
 	FROM student
     GROUP BY city
