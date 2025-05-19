@@ -8,36 +8,94 @@ def main():
     print('''
         1. Start New Game
         2. Load Game
-        3. Exit\n
+        3. Exit
     ''')
     try:
-        choice = int(input("Enter your chice: \n"))
+        choice = int(input("Enter your chice: "))
     except:
         print("Enter an integer or RageQuit")
     return choice
+def level4():
+    global score
+    global lives
 
 def level3():
-    return
+    global score
+    global lives
+
+    print("\n")
+    print("Level 3: Palindrome Gate")
+
+    words = [
+        "LEVEL", "RADAR", "CIVIC", "DEED", "NOON",
+        "ROTOR", "MADAM", "REFER", "MALAYALAM", "RACECAR",
+        "PYTHON", "HELLO", "WORLD", "PROGRAM", "LOOP",
+        "STRING", "RANDOM", "COMPUTER", "DEVELOPER", "GITHUB"
+    ]
+    word = random.choice(words)
+    serial = words.index(word)
+
+    print("Task: Check if the word is a palindrome- ", word)
+
+    answer = input("Yes or No: ")
+
+    if serial<10 and answer.lower() == "yes":
+        print("✅ Correct! +10 points", "\n")
+        score += 10
+    else:
+        print("❎ Wrong! -10 points", "\n")
+        score -= 10
+        lives -= 1
+
+    if lives == 0:
+        return "Game Over 🚫🚫🚫"
+    else:
+        print(f"Lives left: {lives} | Score: {score} \n")
+
+    choice = input("Do you want to continue to Level 4? (yes/no): ")
+
+    if choice.lower() == "no":
+        try:
+            choice2 = int(input('''
+                    What do you want ? 
+                    1. Repeat
+                    2. Previous Level
+                    3. Exit
+                '''))
+            if choice2 == 1:
+                level3()
+            elif choice2 == 2:
+                level2()
+            else:
+                print("🙅‍♂️ Game End: Score: {score}")
+                return
+        except:
+            print("Enter an integer dumbass 🤦 ")
+            return
+    else:
+        level4()
 
 def level2():
     global score
     global lives
 
+    print("\n")
     print("Level 2: The Pattern Unlocker")
 
-    patterns = [[2, 4, 8, 16, 32], [2, 3, 5, 7, 11], [1, 2, 6, 24], [10, 20, 15, 25, 20], [2, 3, 5, 8, 13]]
+    patterns = [
+        [2, 4, 8, 16, 32], [2, 3, 5, 7, 11], [1, 2, 6, 24], [10, 20, 15, 25, 20], [2, 3, 5, 8, 13]
+    ]
     pattern = random.choice(patterns)
+    serial = patterns.index(pattern)
 
     answers = [64, 17, 120, 30, 21]
 
     print("Puzzle: Find the next number of the sequence - ")
     for i in pattern:
-        print(i, end="")
+        print(i, end=" ")
     print()
 
     answer = input("Your Answer: ")
-
-    serial = patterns.index(pattern)
 
     if answer == answers[serial]:
         print("✅ Correct! +10 points", "\n")
@@ -52,10 +110,26 @@ def level2():
     else:
         print(f"Lives left: {lives} | Score: {score} \n")
 
-    choice = input("Do you want to continue to Level 2? (yes/no): ")
+    choice = input("Do you want to continue to Level 3? (yes/no): ")
 
     if choice.lower() == "no":
-        return f"🙅‍♂️ Game End: Score: {score}"
+        try:
+            choice2 = int(input('''
+                    What do you want ? 
+                    1. Repeat
+                    2. Previous Level
+                    3. Exit
+                '''))
+            if choice2 == 1:
+                level2()
+            elif choice2 == 2:
+                level1()
+            else:
+                print("🙅‍♂️ Game End: Score: {score}")
+                return
+        except:
+            print("Enter an integer dumbass 🤦 ")
+            return
     else:
         level3()
 
@@ -63,9 +137,12 @@ def level1():
     global score
     global lives
 
+    print("\n")
     print("Level 1: The Reverser")
 
-    words = ["PYTHON", "LEVEL", "COMPUTER", "PROGRAM", "STRING", "VARIABLE"]
+    words = [
+        "PYTHON", "LEVEL", "COMPUTER", "PROGRAM", "STRING", "VARIABLE"
+    ]
     word = random.choice(words)
     print("Puzzle: Reverse this Word: ", word, "\n")
 
@@ -87,6 +164,22 @@ def level1():
     choice = input("Do you want to continue to Level 2? (yes/no): ")
 
     if choice.lower() == "no":
-        return f"🙅‍♂️ Game End: Score: {score}"
+        try:
+            choice2 = int(input('''
+                What do you want ? 
+                1. Repeat
+                2. Exit
+            '''))
+            if choice2 == 1:
+                level1()
+            else:
+                print("🙅‍♂️ Game End: Score: {score}")
+                return
+        except:
+            print("Enter an integer dumbass 🤦 ")
+            return
     else:
         level2()
+
+main()
+level1()
