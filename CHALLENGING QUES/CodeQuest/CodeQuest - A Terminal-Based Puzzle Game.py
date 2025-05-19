@@ -1,3 +1,4 @@
+import random
 
 lives = 3
 score = 0
@@ -15,5 +16,42 @@ def main():
         print("Enter an integer or RageQuit")
     return choice
 
+def level2():
+    global score
+    global lives
+
+    print("Level 2: The Pattern Unlocker")
+
+    patterns = [[2, 4, 8, 16, 32], [1, 3, 5, 7, 9], []]
+
 def level1():
-    print("")
+    global score
+    global lives
+
+    print("Level 1: The Reverser")
+
+    words = ["PYTHON", "LEVEL", "COMPUTER", "PROGRAM", "STRING", "VARIABLE"]
+    word = random.choice(words)
+    print("Puzze: Reverse this Word: ", word, "\n")
+
+    answer = input("Your answer: ")
+
+    if answer.lower() == word[::-1].lower():
+        print("✅ Correct! +10 points", "\n")
+        score += 10
+    else:
+        print("❎ Wrong! -10 points", "\n")
+        score -= 10
+        lives -= 1
+
+    if lives == 0:
+        return "Game Over 🚫🚫🚫"
+    else:
+        print(f"Lives left: {lives} | Score: {score} \n")
+
+    choice = input("Do you want to continue to Level 2? (yes/no): ")
+
+    if choice.lower() == "no":
+        return f"🙅‍♂️ Game End: Score: {score}"
+    else:
+        level2()
