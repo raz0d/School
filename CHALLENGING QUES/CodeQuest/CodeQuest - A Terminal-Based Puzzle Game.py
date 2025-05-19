@@ -48,7 +48,8 @@ def level3():
         lives -= 1
 
     if lives == 0:
-        return "Game Over 🚫🚫🚫"
+        print("Game Over 🚫🚫🚫")
+        return
     else:
         print(f"Lives left: {lives} | Score: {score} \n")
 
@@ -56,12 +57,8 @@ def level3():
 
     if choice.lower() == "no":
         try:
-            choice2 = int(input('''
-                    What do you want ? 
-                    1. Repeat
-                    2. Previous Level
-                    3. Exit
-                '''))
+            print("What do you want ?\n1. Repeat\n2. Previous Level\n3. Exit")
+            choice2 = int(input("Enter your choice: "))
             if choice2 == 1:
                 level3()
             elif choice2 == 2:
@@ -88,14 +85,14 @@ def level2():
     pattern = random.choice(patterns)
     serial = patterns.index(pattern)
 
-    answers = [64, 17, 120, 30, 21]
+    answers = [64, 13, 120, 30, 21]
 
     print("Puzzle: Find the next number of the sequence - ")
     for i in pattern:
         print(i, end=" ")
     print()
 
-    answer = input("Your Answer: ")
+    answer = int(input("Your Answer: "))
 
     if answer == answers[serial]:
         print("✅ Correct! +10 points", "\n")
@@ -106,7 +103,8 @@ def level2():
         lives -= 1
 
     if lives == 0:
-        return "Game Over 🚫🚫🚫"
+        print("Game Over 🚫🚫🚫")
+        return
     else:
         print(f"Lives left: {lives} | Score: {score} \n")
 
@@ -114,12 +112,8 @@ def level2():
 
     if choice.lower() == "no":
         try:
-            choice2 = int(input('''
-                    What do you want ? 
-                    1. Repeat
-                    2. Previous Level
-                    3. Exit
-                '''))
+            print("What do you want ?\n1. Repeat\n2. Previous Level\n3. Exit")
+            choice2 = int(input("Enter your choice: "))
             if choice2 == 1:
                 level2()
             elif choice2 == 2:
@@ -157,7 +151,8 @@ def level1():
         lives -= 1
 
     if lives == 0:
-        return "Game Over 🚫🚫🚫"
+        print("Game Over 🚫🚫🚫")
+        return
     else:
         print(f"Lives left: {lives} | Score: {score} \n")
 
@@ -165,11 +160,8 @@ def level1():
 
     if choice.lower() == "no":
         try:
-            choice2 = int(input('''
-                What do you want ? 
-                1. Repeat
-                2. Exit
-            '''))
+            print("What do you want ?\n1. Repeat\n2. Exit")
+            choice2 = int(input("Your choice?: "))
             if choice2 == 1:
                 level1()
             else:
